@@ -11,7 +11,7 @@ from langchain.prompts import PromptTemplate
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Initialize Google Generative AI with API Key
-genai.configure(api_key="AIzaSyAICv8vBurXD_44UKLFgTJlZcwl4pWG1aA")
+genai.configure(api_key="**************************************************")
 
 # Set page configuration
 st.set_page_config(page_title="Guardian Vision")
